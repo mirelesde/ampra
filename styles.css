@@ -114,7 +114,8 @@ h3 { font-size: 1.6rem; }
   .nav .btn { margin-top: 14px; text-align: center; }
   .hero { padding: 56px 0 64px; }
   .hero-grid, .about, .contact-grid { grid-template-columns: 1fr; gap: 36px; }
-  .hero-art { order: -1; } .hero-art img { width: 150px; margin-inline: 0; }
+  .hero { background: radial-gradient(420px 360px at 20% 12%, rgba(232,101,10,.14), transparent 70%), var(--ink); }
+  .hero-art { order: -1; } .hero-art img { width: 150px; margin-inline: 0; filter: none; }
   .section { padding: 64px 0; }
   .strip-grid { display: none; }
   .site-footer .wrap { flex-direction: column; text-align: center; }
